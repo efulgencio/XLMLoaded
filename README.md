@@ -4,6 +4,10 @@ Este proyecto demuestra cómo integrar y cargar modelos de lenguaje de gran tama
 
 El objetivo principal es permitir la ejecución de modelos potentes como **Llama 3.1 8B** directamente en el dispositivo, garantizando privacidad, baja latencia y aprovechando al máximo la Memoria Unificada de los chips Apple Silicon (M1/M2/M3/M4).
 
+<p align="center">
+  <img src="LoadModels.png" width="600">
+</p>
+
 ### ✨ Características clave
 
 * **Carga Local Directa:** Configuración optimizada para leer modelos desde el Bundle de la aplicación o rutas locales.
