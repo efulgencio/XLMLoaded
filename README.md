@@ -94,9 +94,7 @@ class LLMManager {
 #### 2. View
 UI:
 
-<pre>
-<code>
-
+```swift
 import SwiftUI
 
 struct ContentView: View {
@@ -133,9 +131,7 @@ struct ContentView: View {
     }
 }
 
-  
-</code>
-</pre>
+```
 
 ***
 
