@@ -137,6 +137,11 @@ struct ContentView: View {
 
 ### ⚠️ Lecciones Aprendidas (Troubleshooting)
 
+<p align="center">
+  <img src="reintentar_descarga.png" width="600">
+</p>
+
+
 **Problema Detectado: Error "Invalid json header length"**
 
 Este error es el obstáculo más común. Indica que el sistema intentó leer los pesos del modelo pero encontró un archivo de texto de **Git LFS** (un "puntero"). MLX espera un encabezado binario y, al recibir texto plano, la longitud es inválida.
