@@ -41,8 +41,7 @@ Es fundamental descargar los archivos binarios correctos desde el repositorio of
 #### 2. Implementación del Loader
 El corazón del proyecto es el **LLMManager**, que permite alternar entre diferentes configuraciones:
 
-<pre>
-<code>
+```swift
 import Foundation
 import MLX
 import MLXLLM
@@ -52,7 +51,6 @@ import MLXLMCommon
 @Observable
 @MainActor
 class LLMManager {
-    // CORRECCIÓN 1: Paréntesis obligatorios y valor inicial para evitar error de 'no initializers'
     var model: (any LanguageModel)? = nil
     var tokenizer: (any Tokenizer)? = nil
   
@@ -91,9 +89,7 @@ class LLMManager {
         }
     }
 }
-
-</code>
-</pre>
+```
 
 #### 2. View
 UI:
